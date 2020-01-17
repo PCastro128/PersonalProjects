@@ -1,0 +1,13 @@
+1  deb 0  1  2
+2  deb 1  2  3
+3  deb 13 3  4
+4  deb 10 5  11
+5  deb 11 6  8
+6  inc 13 7
+7  inc 1  5
+8  inc 0  9
+9  deb 1  10 4
+10 inc 11 9
+11 deb 0  12 13
+12 inc 10 11
+13 end

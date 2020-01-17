@@ -1,0 +1,63 @@
+# zeroing registers
+deb 0
+zero
+loop
+
+deb 12
+zero
+loop
+
+deb 13
+zero
+loop
+
+# main loop
+deb 10
+
+  deb 11
+    inc 0
+  zero
+
+    inc 10
+
+    deb 10
+      inc 13
+      inc 1
+    zero
+    loop
+
+    deb 1
+      inc 10
+    zero
+    loop
+
+    deb 0
+      inc 10
+      inc 11
+    zero
+    loop
+
+    stop
+
+  end
+
+zero
+
+  inc 12
+  deb 11
+    inc 13
+    inc 1
+  zero
+  loop
+
+  deb 1
+    inc 11
+  zero
+  loop
+
+  deb 0
+    inc 11
+    icn 10
+  
+
+loop
